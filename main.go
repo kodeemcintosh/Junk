@@ -3,8 +3,6 @@ package main
 import(
         // "bytes"
 	"fmt"
-        // "flag"
-        // "flag"
 	"os"
         // "path/filepath"
 )
