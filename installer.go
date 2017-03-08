@@ -1,7 +1,7 @@
 package installer
 
-func checkBin() {
-
+func Init() {
+	
 }
 
 // newInstall() {
