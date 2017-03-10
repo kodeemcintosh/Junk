@@ -1,9 +1,20 @@
 package installer
 
-func Init() {
-	
+import(
+	"os"
+	"fmt"
+)
+
+func main() {
+
 }
 
-// newInstall() {
-//
-// }
+
+
+func Init() {
+
+	if runtime.GOOS == "windows" {
+		fmt.Println("Hello from Windows")
+	}	
+}
+

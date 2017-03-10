@@ -29,7 +29,6 @@ func main() {
                 
                 if doesExist && hasHomeDir {
                         os.Rename(goesToJunk, newDir)
-                        fmt.Println(newDir)
                 } else {
                         err := "File or directory does not exist in the current directory, ya dumb-butt."
                         fmt.Print(err)
