@@ -1,16 +1,11 @@
-package test
+package main
 
 import(
 	"os"
 	"fmt"
 	"testing"
-	"github.com/kvmac/main.go"
 	"github.com/stretchr/testify/assert"
 )
-
-func main() {
-
-}
 
 func Expect_WhenFileOrDirectoryNotInCurrentDirectory_ShouldReturnFalse(t *testing.T) {
 
